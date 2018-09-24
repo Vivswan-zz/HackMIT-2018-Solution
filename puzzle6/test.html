@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            font-family: helvetica;
+            font-size: 14px;
+        }
+        #stat td{
+            padding-left: 4px;
+            padding-right: 4px;
+        }
+        #blocks td{
+            padding: 16px;
+        }
+    </style>
+</head>
+<body>
+<table id="stat">
+    <tr>
+        <td></td>
+        <td>Required</td>
+        <td></td>
+        <td>Current</td>
+        <td>Loss</td>
+        <td>Difference</td>
+    </tr>
+    <tr>
+        <td>Expected Party A Districts</td>
+        <td id="stat1_o"></td>
+        <td>higher is better</td>
+        <td id="stat1_"></td>
+        <td id="stat1_s"></td>
+        <td id="stat1_d"></td>
+    </tr>
+    <tr>
+        <td>District Population Imbalance</td>
+        <td id="stat2o"></td>
+        <td>lower is better</td>
+        <td id="stat2"></td>
+        <td id="stat2s"></td>
+        <td id="stat2d"></td>
+    </tr>
+    <tr>
+        <td>Expected Efficiency Gap</td>
+        <td id="stat3o"></td>
+        <td>higher is better</td>
+        <td id="stat3"></td>
+        <td id="stat3s"></td>
+        <td id="stat3d"></td>
+    </tr>
+    <tr>
+        <td>Loss</td>
+        <td id="loss"></td>
+    </tr>
+</table>
+<table id="blocks"></table>
+<textarea id="result" placeholder="Result" style="min-width: 336px; min-height: 116px"></textarea>
+</body>
+<script src="script.js"></script>
+</html>

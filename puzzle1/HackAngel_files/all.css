@@ -1,0 +1,88 @@
+html, body {
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: black;
+}
+
+.entry2 {
+    z-index: 5;
+    position: absolute;
+    height: calc(100vh);
+    width: 100%;
+    background-color: #b4c1b9;
+    top: 0;
+    left: 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.support {
+    z-index: 4;
+    position: absolute;
+    height: calc(100vh);
+    width: 100%;
+    top: 0;
+    left: 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.filter {
+    cursor: pointer;
+    padding-bottom: 3rem;
+}
+
+.angel-user {
+    color: #516876;
+    font-family: 'Raleway';
+    font-size: 2em;
+}
+
+.angel-button {
+    color: #516876;
+    font-family: 'Raleway';
+    font-size: 1.4em;
+    margin-top: 0px;
+}
+
+.angel-button-i {
+    cursor: pointer;
+}
+
+.underlay {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.blur, .seeThru-display {
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.vids-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+}
+
+video {
+    width: auto   !important;
+    height: 100%   !important;
+  }
+

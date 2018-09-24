@@ -1,0 +1,4 @@
+requests==2.18.4
+ed25519==1.4
+jsonpickle==0.9.6
+pyfiglet==0.7.5
